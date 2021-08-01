@@ -1,5 +1,10 @@
 /* Nintendoid font from https://www.splintered.co.uk/experiments/132/ */
 
+.small{
+  font-size: 8px;
+  text-transform: lowercase;
+  
+}
 @font-face {
   font-family: 'Nintendoid1';
   font-style: normal;
@@ -23,7 +28,7 @@ h1 { font-size: 5em; }
 
 @keyframes textflicker {
   from {
-    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    text-shadow: 1px 0 0 #ea36af, -4px 0 0 #75fa69;
   }
   to {
     text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
